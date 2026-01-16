@@ -20,3 +20,19 @@ It includes real packet captures (PCAPs) and screenshots documenting protocol be
 ### Purpose
 This project was created to demonstrate practical packet analysis skills
 relevant to entry-level networking and cybersecurity roles.
+
+
+
+### HTTP vs HTTPS Analysis
+- Captured and compared unencrypted HTTP traffic and encrypted HTTPS traffic
+- Observed plaintext HTTP requests including readable headers and URLs
+- Verified HTTPS encryption using TLS, preventing inspection of application data
+- Demonstrated why HTTPS protects confidentiality and integrity over HTTP
+
+#### Key Observations
+- HTTP traffic exposes request details in clear text
+- HTTPS uses TLS to encrypt payloads, hiding content from packet inspection
+- Protocol stack comparison: Ethernet → IP → TCP → HTTP vs TLS
+
+#### Files
+- pcaps/http-vs-https.pcapng
