@@ -1,1 +1,0 @@
-Screenshots from Wireshark analysis.
