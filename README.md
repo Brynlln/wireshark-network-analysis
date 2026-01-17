@@ -36,3 +36,20 @@ relevant to entry-level networking and cybersecurity roles.
 
 #### Files
 - pcaps/http-vs-https.pcapng
+---
+
+## Python PCAP Analysis (Scapy)
+
+This repository also includes a Python-based PCAP analyzer built using **Scapy**.
+
+**Script location:** `scripts/pcap_analyzer.py`
+
+### What the script does
+- Loads a PCAP file
+- Counts DNS packets
+- Identifies HTTP traffic (TCP port 80)
+- Identifies HTTPS traffic (TCP port 443)
+
+### Example Output
+
+
